@@ -7,11 +7,11 @@ var UserSchema = new mongoose.Schema({
     area: {type:String, default: 'NA'},
     name: {type:String, default: 'NA'},
     slot1: {type:Number, default: 1},
-    slot2: {type:Number, default: 1},
-    slot3: {type:Number, default: 1},
-    slot4: {type:Number, default: 1},
-    slot5: {type:Number, default: 1},
-    slot6: {type:Number, default: 1},
+    slot2: {type:Number, default: 2},
+    slot3: {type:Number, default: 3},
+    slot4: {type:Number, default: 4},
+    slot5: {type:Number, default: 5},
+    slot6: {type:Number, default: 6},
 });
 
 UserSchema.plugin(PassportLocalMongoose);
