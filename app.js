@@ -21,8 +21,8 @@ app.use(express.static(__dirname + "/public"))
 app.set('view engine', 'ejs');
 
 
-//mongoose.connect('mongodb+srv://ayush:ayush@cluster0.r9l2c.mongodb.net/cbb?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
-mongoose.connect('mongodb://localhost:27017/myapp', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
+mongoose.connect('mongodb+srv://ayush:ayush@cluster0.r9l2c.mongodb.net/cbb?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
+//mongoose.connect('mongodb://localhost:27017/myapp', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
 
 //seedDB();
 
